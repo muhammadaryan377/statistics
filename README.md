@@ -1,31 +1,41 @@
 # Statistics for Data Science & Machine Learning
 
-A practical learning repository for building a strong foundation in **statistics**, with emphasis on concepts used in data science, machine learning, and analytical decision-making.
+A practical notebook series for developing the **statistical intuition required for data science, machine learning and evidence-based analysis**.
 
-## Overview
+## About This Repository
 
-This repository will contain notes, examples, and notebooks that connect statistical theory with real data analysis and machine learning applications.
+Statistics is the foundation of understanding data, uncertainty and model performance. This repository connects statistical concepts with practical machine learning applications through Jupyter notebooks, visualizations and data-driven examples.
 
-## Topics
+The current learning path covers descriptive statistics, probability, probability distributions, statistical inference, hypothesis testing, model evaluation and statistics-driven feature engineering.
+
+## Notebook Roadmap
+
+| Module | Notebook | Main Focus |
+|---|---|---|
+| 01 | `Stats_ML_Notebook_01_Descriptive_Statistics_Data_Understanding.ipynb` | Descriptive statistics and data understanding |
+| 02 | `Stats_ML_Notebook_02_Probability_for_Machine_Learning.ipynb` | Probability for machine learning |
+| 03 | `Stats_ML_Notebook_03_Probability_Distributions_for_ML.ipynb` | Probability distributions |
+| 04A | `Stats_ML_Notebook_04_Deep_Statistical_Thinking_Mastery_Executed.ipynb` | Deeper statistical thinking and practical reasoning |
+| 04B | `Stats_ML_Notebook_04_Sampling_Confidence_Intervals_Hypothesis_Testing.ipynb` | Sampling, confidence intervals and hypothesis testing |
+| 05 | `Stats_ML_Notebook_05_Statistical_Thinking_Model_Evaluation.ipynb` | Statistical thinking for model evaluation |
+| 06 | `Stats_ML_Notebook_06_Feature_Engineering_Using_Statistics.ipynb` | Statistics-driven feature engineering |
+
+> `04A` and `04B` are README labels used to distinguish the two currently uploaded notebooks that both contain `04` in their filenames.
+
+## Core Topics
 
 - Descriptive statistics
-- Mean, median, mode, variance, and standard deviation
+- Measures of central tendency and dispersion
 - Probability fundamentals
 - Random variables
 - Probability distributions
-- Normal, binomial, and Poisson distributions
 - Sampling and sampling distributions
-- Central Limit Theorem
 - Confidence intervals
 - Hypothesis testing
-- p-values and significance levels
-- t-tests and chi-square tests
-- Correlation and covariance
-- ANOVA
-- Regression fundamentals
-- Outliers and robust statistics
-- Statistical assumptions
-- A/B testing basics
+- Statistical significance
+- Statistical reasoning for ML evaluation
+- Correlation and relationships in data
+- Feature engineering using statistical evidence
 
 ## Tech Stack
 
@@ -37,10 +47,19 @@ This repository will contain notes, examples, and notebooks that connect statist
 - Matplotlib
 - Jupyter Notebook
 
-## Goal
+## How to Use
 
-The goal is to develop the statistical intuition needed to understand data, evaluate evidence, and make better machine learning and analytical decisions.
+```bash
+git clone https://github.com/muhammadaryan377/statistics.git
+cd statistics
+```
 
-## Status
+Work through the notebooks in the roadmap order. The series is intended to connect statistical theory directly with data science and machine learning decisions.
 
-🚧 Learning repository — notes and practical examples will be added progressively.
+## Learning Goal
+
+Develop the ability to reason about data and uncertainty, test assumptions, interpret evidence and apply statistics correctly when building and evaluating machine learning systems.
+
+## Repository Status
+
+✅ Current statistics notebook collection documented and organized as a progressive ML-focused learning path.
